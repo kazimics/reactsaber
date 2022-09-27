@@ -18,6 +18,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "react-app",
+    "./.eslintrc-auto-import.json",
     // This disables the formatting rules in ESLint that Prettier is going to be responsible for handling.
     // Make sure it"s always the last config, so it gets the chance to override other configs.
     "plugin:prettier/recommended"
@@ -38,6 +39,7 @@
   "rules": {
     // Add your own rules here to override ones from the extended configs.
     "react/react-in-jsx-scope": "off",
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", "never"],
+    "import/no-unresolved": "off"
   }
 }
