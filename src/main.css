@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-center {
+  @apply flex flex-col justify-center;
+}
+
+.p-button {
+  @apply text-lg text-white text-center font-bold bg-[#5b67ca] w-[84vw] py-3 rounded-xl;
+}
