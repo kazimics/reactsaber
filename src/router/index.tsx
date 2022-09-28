@@ -1,6 +1,7 @@
 import React, { lazy } from 'react'
 import { Navigate } from 'react-router-dom'
-import Login from 'pages/Home'
+import Login from 'pages/Login'
+import Resgister from 'pages/Resgister'
 const Home = lazy(() => import('pages/Home'))
 
 const routes = [
@@ -14,7 +15,7 @@ const routes = [
   },
   {
     path: '/resgister',
-    element: <Login />
+    element: <Resgister />
   }
 ]
 

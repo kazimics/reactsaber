@@ -7,5 +7,20 @@
 }
 
 .p-button {
-  @apply text-lg text-white text-center font-bold bg-[#5b67ca] w-[84vw] py-3 rounded-xl;
+  @apply text-[4.267vw] text-white text-center font-bold bg-primary w-full h-[13.867vw] rounded-xl v-center;
+}
+
+.h-title {
+  @apply text-primary font-bold text-[9.6vw] leading-[11.2vw];
+}
+
+.f-page {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height:stretch;
 }
